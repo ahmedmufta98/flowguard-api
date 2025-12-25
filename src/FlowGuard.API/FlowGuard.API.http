@@ -1,0 +1,6 @@
+@FlowGuard.API_HostAddress = http://localhost:5100
+
+GET {{FlowGuard.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
