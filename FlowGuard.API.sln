@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5D6916C3-22EE-452F-93D3-9ED98EC0A38E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowGuard.Tests", "FlowGuard.Tests\FlowGuard.Tests.csproj", "{05CDBD86-B0E5-4C7A-8439-0EDC076340B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{01B658B1-F804-6706-91D5-7FF6A5B78EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01B658B1-F804-6706-91D5-7FF6A5B78EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01B658B1-F804-6706-91D5-7FF6A5B78EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05CDBD86-B0E5-4C7A-8439-0EDC076340B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05CDBD86-B0E5-4C7A-8439-0EDC076340B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05CDBD86-B0E5-4C7A-8439-0EDC076340B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05CDBD86-B0E5-4C7A-8439-0EDC076340B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{01B658B1-F804-6706-91D5-7FF6A5B78EFE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{05CDBD86-B0E5-4C7A-8439-0EDC076340B1} = {5D6916C3-22EE-452F-93D3-9ED98EC0A38E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E29F110D-FCD3-457A-8066-36D7CE774F06}
